@@ -1,0 +1,2 @@
+class Cantos(object):
+	pass
