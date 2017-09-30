@@ -1,20 +1,20 @@
 class Points(object):
     @staticmethod
-    def one(self):
+    def one():
         return 1
         
     @staticmethod
-    def two(self):
+    def two():
         return 2
         
     @staticmethod        
-    def three(self):
+    def three():
         return 3
         
     @staticmethod
-    def four(self):
+    def four():
         return 4
         
     @staticmethod        
-    def clean(self):
-        return self.set_four()
+    def clean():
+        return Points.four()
